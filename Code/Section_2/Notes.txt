@@ -31,13 +31,15 @@ implements
 import
 in 
 is 
+late: Indica al compilador y editor, que una variable al momento de ser usada, tendrá un valor, pero a la hora de definirla, no lo tendrá.
 library 
 new
 null
+return
+required: obligar argumentos a funciones y clases
 operator
 part -->
 rethrow
-return
 set
 static
 super
@@ -48,8 +50,8 @@ throw
 TRUE
 try
 typedef
-var
 void
+var
 while
 with
 yield-->
