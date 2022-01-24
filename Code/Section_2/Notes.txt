@@ -1,0 +1,57 @@
+Palabras reservadas:
+
+abstract
+as 
+assert
+async
+await
+break
+case
+catch 
+class
+const
+continue
+default
+deferred-->
+do
+dynamic
+else
+enum
+export
+external
+extends
+factory
+FALSE
+final
+finally
+for 
+get
+if
+implements
+import
+in 
+is 
+late: Indica al compilador y editor, que una variable al momento de ser usada, tendrá un valor, pero a la hora de definirla, no lo tendrá.
+library 
+new
+null
+return
+required: obligar argumentos a funciones y clases
+operator
+part -->
+rethrow
+set
+static
+super
+switch
+sync-->
+this
+throw
+TRUE
+try
+typedef
+void
+var
+while
+with
+yield-->
