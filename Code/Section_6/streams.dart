@@ -6,12 +6,13 @@
 import 'dart:async';
 
 void main(List<String> args) {
+
   //es buena practica agregar tipado
   //single subscription
   final streamController = new StreamController<String>();
   //broadcast
   //final streamController = new StreamController<String>.broadcast;
-
+ main
   //que hara cuando reciba la data?
   //listen es parecido a subscribe
   //ejemplo: boton que al presionar transmita informacion
