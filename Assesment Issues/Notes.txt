@@ -1,0 +1,71 @@
+Dart:
+
+  -Isolates:
+
+    --Event loops simultanedos
+    --multithreading
+    --Recieve Port -> Comunica thread
+    --Compute -> automatiza el kill del isolate
+
+  -Single Thread:
+
+    -concurrencia en Dart
+
+  -Unit Testing:
+
+    ->package: mockito
+
+      -mock objects
+      -interactions
+
+    ->package: test
+
+      - @TesOn -> Entornos especificos
+      - @Tag -> Notacion especial para test
+      - dart_test.yaml -> muchos archivos o un paquete entero
+
+
+Flutter:
+
+  -Slivers:
+    
+    ->Porcion de area scrolleable customizable con efectos de scroll personalizados
+   
+  
+  -Stateful Widget LifeCycle:
+    ->createState()
+        ->initState()
+            ->first
+               ->build
+                  ->didUpdateWidget
+                      ->deactivate
+
+  -Inyeccion de Dependecias Provider:
+  
+    
+
+  -Inherited Widget:
+      
+      -> Nucleo de comunicacion entre widgets sin importar posicione en el arbol de widgets para saber su estado 
+
+  -Widget Testing:
+  
+    -> Paquete Flutter_test
+      -> WidgetTester -> interactua con el widget
+        -> testWidgets -> crea testers por widgets
+          -> Finder -> buscar Widgets
+            -> Matcher -> verifica busqueda
+
+  -Dio:
+     -> Serializacion 
+
+  -Stream Builder:
+  
+     -> widget que convierte objetos en widgets
+        -> junta todo, convierte a objeto , permite manipulacion
+    
+    -Future Builder:
+   
+      -> Implementacion para poder esperar la ejecucion de cierto bloque de codigo
+      
+      
