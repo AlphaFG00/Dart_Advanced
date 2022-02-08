@@ -68,4 +68,10 @@ Flutter:
    
       -> Implementacion para poder esperar la ejecucion de cierto bloque de codigo
       
+  -Animation Controller:
+  
+    -> deriva de Animation
+    -> objeto Animation que genera un nuevo valor cada vez que el hardware esta listo para un nuevo frame
+    -> contiene la propiedad vsync para poder prevenir animaciones fuera de pantalla y consumo de recursos innecesarios
+      
       
